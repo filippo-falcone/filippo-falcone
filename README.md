@@ -2,11 +2,7 @@
 
 # 👋 Hey there! Sono Filippo Falcone
 
-<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8B+Ciao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%- 🌐 **Live Deployer** - Boolflix su Netlify in produzione!
-- 🤝 **Team Player** - BoolBnB sviluppato in team di 3 developer
-- 🏗️ **Architect** - Progettazione architettura microservizi
-- 🔗 **Open Contributor** - Collaborazioni su repository esterne
-- 💡 **Problem Solver** - Logic ninja%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8B+Ciao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark" width="900" />
 
