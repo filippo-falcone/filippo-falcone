@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 3 * * *' # Ogni giorno alle 3:00 UTC
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   update-stats:
