@@ -2,7 +2,11 @@
 
 # 👋 Hey there! Sono Filippo Falcone
 
-<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8B+Ciao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8B+Ciao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%- 🌐 **Live Deployer** - Boolflix su Netlify in produzione!
+- 🤝 **Team Player** - BoolBnB sviluppato in team di 3 developer
+- 🏗️ **Architect** - Progettazione architettura microservizi
+- 🔗 **Open Contributor** - Collaborazioni su repository esterne
+- 💡 **Problem Solver** - Logic ninja%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark" width="900" />
 
@@ -107,26 +111,74 @@ Vite         ███████████████        75%  ⚡ Speed
 
 <table>
 <tr>
-<td align="center" width="33%">
-<h3>🏗️ LAMP Stack Template</h3>
-<a href="https://github.com/filippo-falcone/fullstack-lamp-template">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=fullstack-lamp-template&theme=radical&hide_border=true" />
+<td align="center" width="50%">
+<h3>🤖 IA Docker Template Generator</h3>
+<a href="https://github.com/filippo-falcone/ia-docker-template-generator">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true" />
 </a>
-<p><em>Il mio starter kit perfetto per progetti fullstack. Tutto quello che serve per partire rocket-style! 🚀</em></p>
+<p><em>Template generator intelligente per progetti Docker con AI. Automazione e innovazione per il deployment! 🐳🤖</em></p>
 </td>
-<td align="center" width="33%">
-<h3>⚡ Laravel API</h3>
-<a href="https://github.com/filippo-falcone/laravel-api">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=laravel-api&theme=radical&hide_border=true" />
-</a>
-<p><em>API RESTful elegante e performante. Quando il backend incontra l'arte! 🎨</em></p>
-</td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 <h3>🎬 Vue Boolflix</h3>
 <a href="https://github.com/filippo-falcone/vite-boolflix">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=radical&hide_border=true" />
 </a>
-<p><em>Netflix clone con Vue e Vite. Perché non replicare i giganti? 🍿</em></p>
+<p><em>Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨</em></p>
+<p><strong>🛠️ Tech Stack:</strong> Vue 3 Composition API • Vite • Axios • Bootstrap 5 • SASS • Netlify</p>
+<p>
+<a href="https://luminous-cendol-66cf45.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/🚀 Live Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</a>
+</p>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+<h3>🏠 BoolBnB - Collaborative Project</h3>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<div style="flex: 1;">
+<h4>🔧 Backend (Laravel)</h4>
+<p><strong>Team Project (3 sviluppatori)</strong></p>
+<p><em>Sistema completo di annunci appartamenti con:</em></p>
+<ul style="text-align: left; margin: 0 auto; display: inline-block;">
+<li>🔐 Sistema di autenticazione utenti</li>
+<li>📝 CRUD completo appartamenti con soft delete</li>
+<li>💳 Sistema pagamenti API per sponsorizzazioni</li>
+<li>📊 Dashboard statistiche visualizzazioni</li>
+<li>📧 Sistema messaggistica per proprietari</li>
+</ul>
+<p>
+<a href="https://github.com/WilliamHaxhija/fo-boolbnb" target="_blank">
+<img src="https://img.shields.io/badge/🔧 Backend Repo-000000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
+</div>
+<div style="flex: 1;">
+<h4>🌐 Frontend (Vue.js)</h4>
+<p><strong>SPA per visitatori</strong></p>
+<p><em>Interfaccia moderna e reattiva con:</em></p>
+<ul style="text-align: left; margin: 0 auto; display: inline-block;">
+<li>🔍 Ricerca appartamenti per città</li>
+<li>🗺️ Integrazione API TomTom per mappe</li>
+<li>📱 Design responsive e user-friendly</li>
+<li>📨 Form di contatto proprietari</li>
+<li>⚡ Chiamate AJAX ottimizzate</li>
+</ul>
+<p>
+<a href="https://github.com/Fabrizio-padula-hub/bo-boolbnb" target="_blank">
+<img src="https://img.shields.io/badge/🌐 Frontend Repo-000000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
+</div>
+</div>
+<p>
+<img src="https://img.shields.io/badge/Team-3 Developers-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Architecture-Microservices-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Laravel-Backend-red?style=for-the-badge&logo=laravel" />
+<img src="https://img.shields.io/badge/Vue.js-Frontend-4FC08D?style=for-the-badge&logo=vue.js" />
+<img src="https://img.shields.io/badge/TomTom-API-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Git-Collaboration-purple?style=for-the-badge&logo=git" />
+</p>
 </td>
 </tr>
 </table>
@@ -154,7 +206,11 @@ Vite         ███████████████        75%  ⚡ Speed
 - ☕ **Coffee2Code Converter** - 1000+ ore di coding
 - 🐛 **Bug Hunter** - Debug master level
 - 🚀 **Project Launcher** - Repository creator
-- 💡 **Problem Solver** - Logic ninja
+- 🌐 **Live Deployer** - Boolflix su Netlify in produzione!
+- 🤝 **Team Player** - BoolBnB sviluppato in team di 3 developer
+- 🏗️ **Architect** - Progettazione architettura microservizi
+- � **Open Contributor** - Collaborazioni su repository esterne
+- �💡 **Problem Solver** - Logic ninja
 
 ---
 
@@ -200,9 +256,9 @@ Vite         ███████████████        75%  ⚡ Speed
 
 ### 💭 Fun facts about me
 
-- � **Sassofono enthusiast** - La musica è la mia seconda passione dopo il codice!
+- 🎷 **Sassofono enthusiast** - La musica è la mia seconda passione dopo il codice!
 - 🎮 **Hardcore gamer** - Le quest nei videogames mi hanno insegnato la perseveranza nel debug
-- �🎵 Programmo meglio con la musica (playlist jazz/gaming mix disponibile!)
+- 🎵 Programmo meglio con la musica (playlist jazz/gaming mix disponibile!)
 - ☕ Il mio carburante preferito: espresso doppio (o triplo nei deploy!)
 - 🍕 Pizza lover (ovviamente italiana, come il mio codice!)
 - 🌍 Sogno di contribuire a progetti open source globali
@@ -213,74 +269,3 @@ Vite         ███████████████        75%  ⚡ Speed
 <img src="https://readme-typing-svg.demolab.com/?lines=%E2%9C%A8+Grazie+per+essere+passato+dal+mio+profilo%21;%F0%9F%92%BC+Collaboriamo+insieme%21;%F0%9F%9A%80+Let%27s+code+something+amazing%21&font=Fira%20Code&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=50" alt="Footer" />
 
 *"Il miglior codice nasce quando passione e competenza si incontrano"* ✨
-
-</div>
-
-</div>
-
----
-
-## 🚀 Competenze tecniche
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Laravel-E74430?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
----
-
-## 🎓 Certificazioni
-
-- ![Boolean Badge](https://img.shields.io/badge/Boolean-Full%20Stack%20Web%20Developer-blue)  
-  **Full Stack Web Developer** — Boolean Careers (luglio 2024)
-
----
-
-## 🌟 Progetti in evidenza
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/filippo-falcone/fullstack-lamp-template">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=fullstack-lamp-template&theme=radical" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/filippo-falcone/laravel-api">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=laravel-api&theme=radical" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/filippo-falcone/vite-boolflix">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=radical" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📈 Statistiche & Attività
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=filippo-falcone&theme=radical" />
-</p>
-
----
-
-## 📫 Contatti & Social
-
-<p align="center">
-  <a href="mailto:filippofalcone18@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/filippo-falcone-993213211"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center"><i>“La conoscenza va condivisa.”</i></p>
