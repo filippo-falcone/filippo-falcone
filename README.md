@@ -153,12 +153,27 @@ Vite         ███████████████        75%  ⚡ Speed
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" alt="GitHub Streak" />
+<table>
+<tr>
+<td>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400">
+  <img width="100%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
+</picture>
+</td>
+<td>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true&cache_seconds=86400">
+  <img width="100%" src="https://streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true&cache_seconds=86400" alt="GitHub Streak" />
+</picture>
+</td>
+</tr>
+</table>
 
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&cache_seconds=86400&langs_count=8">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&cache_seconds=86400&langs_count=8" alt="Top Languages" />
+</picture>
 
 </div>
 
