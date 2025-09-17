@@ -38,8 +38,9 @@ const filippo = {
   code: ['PHP', 'JavaScript', 'Vue.js'],
   tools: ['Laravel', 'Vite', 'MySQL'],
   mindset: 'Growth & Fun',
+  hobbies: ['🎷 Sassofono', '🎮 Gaming', '🎵 Music'],
   currentlyLearning: 'Sempre qualcosa di nuovo!',
-  funFact: 'Debuggo meglio con la musica 🎵'
+  funFact: 'Debuggo al ritmo di jazz e videogiochi! 🎷�'
 };
 ```
 
