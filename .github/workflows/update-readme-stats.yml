@@ -1,0 +1,28 @@
+name: Aggiorna badge statistiche README
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Ogni giorno alle 3:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Scarica badge GitHub Stats
+        run: |
+          mkdir -p assets
+          curl -L "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" -o assets/github-stats.svg
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" -o assets/top-langs.svg
+          curl -L "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" -o assets/streak.svg
+
+      - name: Commit e push immagini aggiornate
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/*.svg
+          git commit -m "Aggiorna badge statistiche README [bot]" || echo "Nessuna modifica da committare"
+          git push
