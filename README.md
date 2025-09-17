@@ -155,19 +155,8 @@ Vite         ███████████████        75%  ⚡ Speed
 
 <!-- GitHub Stats -->
 <a href="https://github.com/filippo-falcone">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&card_width=400" />
-</a>
-<a href="https://github.com/filippo-falcone">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=filippo-falcone&theme=radical&hide_border=true" />
 </a>
-
-<br/>
-
-<!-- Top Languages -->
-<a href="https://github.com/filippo-falcone">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&langs_count=6&card_width=445" />
-</a>
-
 </div>
 
 ### 🏆 Obiettivi Sbloccati
