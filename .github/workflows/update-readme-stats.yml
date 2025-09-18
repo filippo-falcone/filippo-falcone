@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p assets
           
-          # Funzione di retry per download
+          # Funzione di retry per download con validazione
           download_with_retry() {
             local url="$1"
             local output="$2"
@@ -33,8 +33,14 @@ jobs:
               echo "Tentativo $attempt per $output..."
               if curl -L --connect-timeout 30 --max-time 60 "$url" -o "$output" 2>/dev/null; then
                 if [ -s "$output" ]; then
-                  echo "✅ Download riuscito: $output"
-                  return 0
+                  # Verifica che il file non contenga messaggi di errore
+                  if grep -q "Something went wrong\|rate limit\|API.*exceeded" "$output" 2>/dev/null; then
+                    echo "⚠️ File contiene errore API, eliminando..."
+                    rm -f "$output"
+                  else
+                    echo "✅ Download riuscito: $output"
+                    return 0
+                  fi
                 else
                   echo "⚠️ File vuoto, ritento..."
                 fi
@@ -50,11 +56,51 @@ jobs:
             return 1
           }
           
-          # Download GitHub Stats (prioritario)
-          download_with_retry "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/github-stats.svg"
+          # Download GitHub Stats (prioritario) con fallback
+          if ! download_with_retry "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/github-stats.svg"; then
+            echo "🔄 Creazione badge GitHub Stats di fallback..."
+            cat > assets/github-stats.svg << 'EOF'
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
+  <defs>
+    <style>
+      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }
+      .date { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    </style>
+  </defs>
+  <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="25" y="35" class="header">📊 GitHub Statistics</text>
+  <text x="25" y="70" class="stat">⚡ Fullstack Developer attivo</text>
+  <text x="25" y="95" class="date">🚀 Repository pubblici e contributi regolari</text>
+  <text x="25" y="120" class="date">💻 Codice disponibile su GitHub</text>
+  <text x="25" y="145" class="date">🔄 Statistiche aggiornate automaticamente</text>
+</svg>
+EOF
+            echo "✅ Badge GitHub Stats di fallback creato"
+          fi
           
-          # Download Top Languages (prioritario)
-          download_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/top-langs.svg"
+          # Download Top Languages (prioritario) con fallback
+          if ! download_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/top-langs.svg"; then
+            echo "🔄 Creazione badge Top Languages di fallback..."
+            cat > assets/top-langs.svg << 'EOF'
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="195">
+  <defs>
+    <style>
+      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .lang { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }
+      .date { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    </style>
+  </defs>
+  <rect width="350" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="25" y="35" class="header">💻 Top Languages</text>
+  <text x="25" y="70" class="lang">🐘 PHP & Laravel</text>
+  <text x="25" y="95" class="lang">💚 Vue.js & JavaScript</text>
+  <text x="25" y="120" class="lang">🎨 HTML & CSS</text>
+  <text x="25" y="145" class="date">⚡ Stack fullstack moderno</text>
+</svg>
+EOF
+            echo "✅ Badge Top Languages di fallback creato"
+          fi
           
           # Download Streak Stats con fallback multipli
           if ! download_with_retry "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" "assets/streak.svg"; then
