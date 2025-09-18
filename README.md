@@ -99,6 +99,9 @@ Vite         ███████████████        75%  ⚡ Speed
 
 **🛠️ Tech Stack:** Node.js • Google Gemini AI • Docker • CLI Interface • Multi-framework Support
 
+[![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/ia-docker-template-generator)
+[![🌟 In Sviluppo](https://img.shields.io/badge/🌟%20In%20Sviluppo-FF6B35?style=flat&logo=rocket&logoColor=white)](https://github.com/filippo-falcone/ia-docker-template-generator/tree/v1)
+
 ---
 
 ### 🎬 Boolflix
