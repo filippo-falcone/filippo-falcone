@@ -1,15 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
 
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#141321" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7 }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#141321" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">API rate limit already exceeded for user ID 95043299.</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+  <defs>    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#141321" xmlns="http://www.w3.org/2000/svg">
+
+    <style>    <style>
+
+      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e }
+
+      .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7 }
+
+      .date { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }    .gray { fill: #858585 }
+
+    </style>    </style>
+
+  </defs>    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#141321" stroke="#e4e2e2"/>
+
+  <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
+
+  <text x="25" y="35" class="header">📊 GitHub Statistics</text>    <text data-testid="message" x="25" y="55" class="text small">
+
+  <text x="25" y="70" class="stat">⚡ Fullstack Developer attivo</text>      <tspan x="25" dy="18">API rate limit already exceeded for user ID 95043299.</tspan>
+
+  <text x="25" y="95" class="date">🚀 Repository pubblici e contributi regolari</text>      <tspan x="25" dy="18" class="gray">OK</tspan>
+
+  <text x="25" y="120" class="date">💻 Codice disponibile su GitHub</text>    </text>
+
+  <text x="25" y="145" class="date">🔄 Statistiche aggiornate automaticamente</text>    </svg>
+
+</svg>  
