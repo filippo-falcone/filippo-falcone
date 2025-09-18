@@ -21,18 +21,119 @@ jobs:
       - name: Scarica badge GitHub Stats
         run: |
           mkdir -p assets
-          curl -L "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" -o assets/github-stats.svg
-          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" -o assets/top-langs.svg
-          curl -L "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" -o assets/streak.svg
+          
+          # Funzione di retry per download
+          download_with_retry() {
+            local url="$1"
+            local output="$2"
+            local max_attempts=3
+            local attempt=1
+            
+            while [ $attempt -le $max_attempts ]; do
+              echo "Tentativo $attempt per $output..."
+              if curl -L --connect-timeout 30 --max-time 60 "$url" -o "$output" 2>/dev/null; then
+                if [ -s "$output" ]; then
+                  echo "✅ Download riuscito: $output"
+                  return 0
+                else
+                  echo "⚠️ File vuoto, ritento..."
+                fi
+              else
+                echo "❌ Errore nel download, ritento..."
+              fi
+              
+              attempt=$((attempt + 1))
+              [ $attempt -le $max_attempts ] && sleep 5
+            done
+            
+            echo "❌ Download fallito dopo $max_attempts tentativi: $output"
+            return 1
+          }
+          
+          # Download GitHub Stats (prioritario)
+          download_with_retry "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/github-stats.svg"
+          
+          # Download Top Languages (prioritario)
+          download_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/top-langs.svg"
+          
+          # Download Streak Stats con fallback multipli
+          if ! download_with_retry "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" "assets/streak.svg"; then
+            echo "🔄 Tentativo con host alternativo..."
+            if ! download_with_retry "https://streak-stats.demolab.com?user=filippo-falcone&theme=radical&hide_border=true" "assets/streak.svg"; then
+              echo "🔄 Creazione badge statico di fallback..."
+              # Crea un badge statico se tutti i servizi falliscono
+              cat > assets/streak.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
+            <defs>
+              <style>
+                .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+                .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }
+                .date { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+              </style>
+            </defs>
+            <rect width="495" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+            <text x="25" y="35" class="header">🔥 GitHub Streak Stats</text>
+            <text x="25" y="70" class="stat">📊 Statistiche temporaneamente non disponibili</text>
+            <text x="25" y="95" class="date">🔄 Il servizio verrà ripristinato automaticamente</text>
+            <text x="25" y="120" class="date">⚡ Workflow in esecuzione regolare</text>
+          </svg>
+          EOF
+              echo "✅ Badge di fallback creato"
+            fi
+          fi
+          
+          # Verifica che almeno i file essenziali esistano
+          for file in "assets/github-stats.svg" "assets/top-langs.svg" "assets/streak.svg"; do
+            if [ ! -s "$file" ]; then
+              echo "⚠️ Warning: $file mancante o vuoto"
+            else
+              echo "✅ $file presente e valido"
+            fi
+          done
 
       - name: Commit e push immagini aggiornate
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Verifica quali file sono stati aggiornati
+          updated_files=""
+          for file in "assets/github-stats.svg" "assets/top-langs.svg" "assets/streak.svg"; do
+            if [ -s "$file" ]; then
+              updated_files="$updated_files $(basename $file)"
+            fi
+          done
+          
           git add assets/
+          
           if git diff --staged --quiet; then
-            echo "Nessuna modifica da committare"
+            echo "📝 Nessuna modifica alle statistiche"
           else
-            git commit -m "🤖 Aggiorna badge statistiche README [auto]"
-            git push origin main
+            # Crea un messaggio di commit informativo
+            commit_message="🤖 Aggiorna badge statistiche README [auto]"
+            if [ ! -z "$updated_files" ]; then
+              commit_message="$commit_message - Aggiornati:$updated_files"
+            fi
+            
+            git commit -m "$commit_message"
+            
+            # Retry del push se fallisce
+            max_push_attempts=3
+            push_attempt=1
+            while [ $push_attempt -le $max_push_attempts ]; do
+              echo "🚀 Tentativo push $push_attempt..."
+              if git push origin main; then
+                echo "✅ Push completato con successo!"
+                break
+              else
+                echo "❌ Push fallito, ritento..."
+                push_attempt=$((push_attempt + 1))
+                [ $push_attempt -le $max_push_attempts ] && sleep 5
+              fi
+            done
+            
+            if [ $push_attempt -gt $max_push_attempts ]; then
+              echo "❌ Push fallito dopo $max_push_attempts tentativi"
+              exit 1
+            fi
           fi
