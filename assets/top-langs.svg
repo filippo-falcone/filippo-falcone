@@ -8,8 +8,8 @@
   </defs>
   <rect width="350" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="25" y="35" class="header">💻 Top Languages</text>
-  <text x="25" y="70" class="lang">🐘 PHP &amp; Laravel</text>
-  <text x="25" y="95" class="lang">💚 Vue.js &amp; JavaScript</text>
-  <text x="25" y="120" class="lang">🎨 HTML &amp; CSS</text>
+  <text x="25" y="70" class="lang">🐘 PHP & Laravel</text>
+  <text x="25" y="95" class="lang">💚 Vue.js & JavaScript</text>
+  <text x="25" y="120" class="lang">🎨 HTML & CSS</text>
   <text x="25" y="145" class="date">⚡ Stack fullstack moderno</text>
 </svg>
