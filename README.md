@@ -56,23 +56,23 @@ const filippo = {
 
 **Backend & Framework**
 
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
 
 **Frontend & UI**
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
 
 **Strumenti & Workflow**
 
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" />
-<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
+<img src="https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white" />
+<img src="https://img.shields.io/badge/NPM-CB3837?style=flat&logo=npm&logoColor=white" />
 
 </div>
 
@@ -92,25 +92,23 @@ Vite         ███████████████        75%  ⚡ Speed
 
 > *"Ogni progetto racconta una storia, ogni commit è un passo avanti"*
 
-## 🎨 Progetti in evidenza
-
-> *"Ogni progetto racconta una storia, ogni commit è un passo avanti"*
-
 ### 🤖 Generatore Template Docker con IA
 [![IA Docker Template Generator](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true)](https://github.com/filippo-falcone/ia-docker-template-generator)
 
-*Template generator intelligente per progetti Docker con AI. Automazione e innovazione per il deployment! 🐳🤖*
+*CLI tool intelligente che genera template di progetti fullstack usando Google Gemini AI. Supporta React, Vue, Angular, Node.js, Laravel, PHP, Python con configurazioni Docker automatiche. Interfaccia interattiva per scegliere tecnologie frontend/backend e generare strutture pronte per la produzione! 🚀⚡*
+
+**🛠️ Tech Stack:** Node.js • Google Gemini AI • Docker • CLI Interface • Multi-framework Support
 
 ---
 
-### 🎬 Vue Boolflix
-[![Vue Boolflix](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=radical&hide_border=true)](https://github.com/filippo-falcone/vite-boolflix)
+### 🎬 Boolflix
+[![Boolflix](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=radical&hide_border=true)](https://github.com/filippo-falcone/vite-boolflix)
 
 *Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨*
 
 **🛠️ Tech Stack:** Vue 3 Composition API • Vite • Axios • Bootstrap 5 • SASS • Netlify
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://luminous-cendol-66cf45.netlify.app/)
+[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://luminous-cendol-66cf45.netlify.app/)
 
 ---
 
@@ -126,7 +124,7 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📊 Dashboard statistiche visualizzazioni
 - 📧 Sistema messaggistica per proprietari
 
-[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
+[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
 
 #### 🌐 Frontend (Vue.js)
 *SPA per visitatori - Interfaccia moderna e reattiva con:*
@@ -136,16 +134,16 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📨 Form di contatto proprietari
 - ⚡ Chiamate AJAX ottimizzate
 
-[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
+[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
 
 **Tecnologie utilizzate:**
 
-![Team-3 Developers](https://img.shields.io/badge/Team-3%20Developers-blue?style=for-the-badge)
-![Architecture-Microservices](https://img.shields.io/badge/Architecture-Microservices-green?style=for-the-badge)
-![Laravel-Backend](https://img.shields.io/badge/Laravel-Backend-red?style=for-the-badge&logo=laravel)
-![Vue.js-Frontend](https://img.shields.io/badge/Vue.js-Frontend-4FC08D?style=for-the-badge&logo=vue.js)
-![TomTom-API](https://img.shields.io/badge/TomTom-API-orange?style=for-the-badge)
-![Git-Collaboration](https://img.shields.io/badge/Git-Collaboration-purple?style=for-the-badge&logo=git)
+![Team-3 Developers](https://img.shields.io/badge/Team-3%20Developers-blue?style=flat)
+![Architecture-Microservices](https://img.shields.io/badge/Architecture-Microservices-green?style=flat)
+![Laravel-Backend](https://img.shields.io/badge/Laravel-Backend-red?style=flat&logo=laravel)
+![Vue.js-Frontend](https://img.shields.io/badge/Vue.js-Frontend-4FC08D?style=flat&logo=vue.js)
+![TomTom-API](https://img.shields.io/badge/TomTom-API-orange?style=flat)
+![Git-Collaboration](https://img.shields.io/badge/Git-Collaboration-purple?style=flat&logo=git)
 
 ---
 
@@ -153,15 +151,26 @@ Vite         ███████████████        75%  ⚡ Speed
 
 <div align="center">
 
-<!-- GitHub Stats -->
+<!-- GitHub Stats con tema radical -->
 <a href="https://github.com/filippo-falcone">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=filippo-falcone&theme=radical&hide_border=true" />
 </a>
+
+<br>
+
+<!-- Statistiche aggiuntive con tema radical -->
+<a href="https://github.com/filippo-falcone">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+</a>
+<a href="https://github.com/filippo-falcone">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true" />
+</a>
+
 </div>
 
 ### 🏆 Obiettivi Sbloccati
 
-- 🎓 **Diplomato in Coding** - Completato il corso Boolean Full Stack
+- 🎓 **Diplomato in Coding** - [Completato il corso Boolean Full Stack](https://credsverse.com/credentials/3fe2d031-de6e-4701-86b7-a2af66e819ef) ✅
 - ☕ **Convertitore Coffee2Code** - 1000+ ore di coding
 - 🐛 **Cacciatore di Bug** - Debug master level
 - 🚀 **Lancia Progetti** - Creatore di repository
@@ -175,11 +184,11 @@ Vite         ███████████████        75%  ⚡ Speed
 
 ## 🎯 Cosa sto facendo ora
 
-<img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300">
+<img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="280" style="border-radius: 15px; margin-left: 20px;">
 
 ### 🔭 Attualmente sto lavorando su
 - 🌟 Sto espandendo il mio portfolio con nuovi progetti
-- 📚 Sto approfondendo la Vue 3 Composition API
+- 📚 Sto approfondendo la Vue 3 Composition API  
 - 🎯 Studio pattern avanzati di Laravel
 
 ### 🌱 Obiettivi di apprendimento
@@ -203,13 +212,13 @@ Vite         ███████████████        75%  ⚡ Speed
 
 <p>
 <a href="mailto:filippofalcone18@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
 </a>
 <a href="https://www.linkedin.com/in/filippo-falcone-993213211">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/filippo-falcone">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
 </a>
 </p>
 
