@@ -111,7 +111,7 @@ Vite         ███████████████        75%  ⚡ Speed
 
 **🛠️ Tech Stack:** Vue 3 Composition API • Vite • Axios • Bootstrap 5 • SASS • Netlify
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://luminous-cendol-66cf45.netlify.app/)
+[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://spontaneous-swan-358ea4.netlify.app/)
 
 ---
 
