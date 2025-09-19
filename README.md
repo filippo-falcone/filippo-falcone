@@ -112,7 +112,7 @@ Vite         ███████████████        75%  ⚡ Speed
 
 **🛠️ Tech Stack:** Vue 3 Composition API • Vite • Axios • Bootstrap 5 • SASS • Netlify
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://luminous-cendol-66cf45.netlify.app/)
+[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://spontaneous-swan-358ea4.netlify.app/)
 
 ---
 
@@ -128,7 +128,7 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📊 Dashboard statistiche visualizzazioni
 - 📧 Sistema messaggistica per proprietari
 
-[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
+[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
 
 #### 🌐 Frontend (Vue.js)
 *SPA per visitatori - Interfaccia moderna e reattiva con:*
@@ -138,7 +138,7 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📨 Form di contatto proprietari
 - ⚡ Chiamate AJAX ottimizzate
 
-[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
+[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
 
 **Tecnologie utilizzate:**
 
