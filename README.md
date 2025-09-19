@@ -127,7 +127,7 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📊 Dashboard statistiche visualizzazioni
 - 📧 Sistema messaggistica per proprietari
 
-[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
+[![🔧 Backend Repo](https://img.shields.io/badge/🔧%20Backend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
 
 #### 🌐 Frontend (Vue.js)
 *SPA per visitatori - Interfaccia moderna e reattiva con:*
@@ -137,7 +137,7 @@ Vite         ███████████████        75%  ⚡ Speed
 - 📨 Form di contatto proprietari
 - ⚡ Chiamate AJAX ottimizzate
 
-[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/Fabrizio-padula-hub/bo-boolbnb)
+[![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
 
 **Tecnologie utilizzate:**
 
