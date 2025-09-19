@@ -22,6 +22,7 @@ Ciao! 👋 Sono Filippo, un **Fullstack Developer** che ha trasformato la passio
 - 💡 **Il mio superpotere:** Trasformare caffè ☕ in codice funzionante
 - 🎨 **Approccio:** Un mix perfetto tra logica rigorosa e creatività sfrenata
 - 🎓 **Background:** Junior Full Stack Web Developer @ Boolean Careers (luglio 2024)
+- 📄 **CV Completo:** [Guarda il mio Curriculum Vitae](https://github.com/filippo-falcone/CV) 📋
 - 🌱 **Always learning:** Ogni bug è un'opportunità di crescita!
 
 ---
@@ -222,6 +223,9 @@ Vite         ███████████████        75%  ⚡ Speed
 </a>
 <a href="https://github.com/filippo-falcone">
 <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+</a>
+<a href="https://github.com/filippo-falcone/CV">
+<img src="https://img.shields.io/badge/📄%20Curriculum%20Vitae-FF6B35?style=flat&logo=adobe-acrobat-reader&logoColor=white" />
 </a>
 </p>
 
