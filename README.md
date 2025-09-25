@@ -93,15 +93,23 @@ Vite         ███████████████        75%  ⚡ Speed
 
 > *"Ogni progetto racconta una storia, ogni commit è un passo avanti"*
 
-### 🤖 Generatore Template Docker con IA
-[![IA Docker Template Generator](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true)](https://github.com/filippo-falcone/ia-docker-template-generator)
+### 🤖 AI Docker Template Generator (v2.0)
+<img alt="IA Docker Template Generator" src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true">
 
-*CLI tool intelligente che genera template di progetti fullstack usando Google Gemini AI. Supporta React, Vue, Angular, Node.js, Laravel, PHP, Python con configurazioni Docker automatiche. Interfaccia interattiva per scegliere tecnologie frontend/backend e generare strutture pronte per la produzione! 🚀⚡*
+*Tool CLI avanzato con architettura a microservizi che sfrutta Ollama + Gemma3 AI per generare progetti web completi. Supporta template frontend/backend/fullstack con validazione automatica, Docker files production-ready e dry-run di installazione. Interfaccia interattiva bilingue con agenti AI specializzati per generazione e validazione! 🚀🤖*
 
-**🛠️ Tech Stack:** Node.js • Google Gemini AI • Docker • CLI Interface • Multi-framework Support
+**🛠️ Tech Stack v2.0**: Node.js • Ollama + Gemma3 AI • Python FastAPI • Docker • Microservizi • Auto-Validation • Health Checks
+
+**✨ Nuove funzionalità v2:**
+- 🏗️ Architettura a microservizi con agenti AI separati (PromptBuilder + CodeValidator
+- 🔍 Validazione automatica contro template JSON autorevoli con correzione errori
+- 🎨 Template ufficiali per combo framework testati e funzionanti
+- 🐳 Docker Compose moderno con profili (cli, fullstack) e networking avanzato
+- 🌍 Supporto bilingue completo (EN/IT) per documentazione
+- ⚡ Generazione offline senza dipendenze cloud, massima velocità
 
 [![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/ia-docker-template-generator)
-[![🌟 In Sviluppo](https://img.shields.io/badge/🌟%20In%20Sviluppo-FF6B35?style=flat&logo=rocket&logoColor=white)](https://github.com/filippo-falcone/ia-docker-template-generator/tree/v1)
+[![🌟 Branch v2.0](https://img.shields.io/badge/🌟%20Branch%20v2.0-FF6B35?style=flat&logo=git&logoColor=white)](https://github.com/filippo-falcone/ia-docker-template-generator/tree/v2)
 
 ---
 
