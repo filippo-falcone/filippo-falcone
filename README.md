@@ -58,15 +58,29 @@ const filippo = {
 **Backend & Framework**
 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
 
 **Frontend & UI**
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+
+**Framework Frontend**
+
+<img src="https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" />
+
+**CSS & Styling**
+
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white" />
 
 **Strumenti & Workflow**
 
@@ -74,6 +88,16 @@ const filippo = {
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
 <img src="https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white" />
 <img src="https://img.shields.io/badge/NPM-CB3837?style=flat&logo=npm&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+
+**AI Tools**
+
+<img src="https://img.shields.io/badge/Ollama-ffffff?style=flat&logo=ollama&logoColor=black" />
+<img src="https://img.shields.io/badge/GitHub_Copilot-238636?style=flat&logo=githubcopilot" />
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=googlegemini&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude-d97757?style=flat&logo=claude&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI-ffffff?style=flat&logo=openai&logoColor=black">
 
 </div>
 
@@ -118,21 +142,21 @@ Vite         ███████████████        75%  ⚡ Speed
 
 *Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨*
 
-**🛠️ Tech Stack:** Vue 3 Composition API • Vite • Axios • Bootstrap 5 • SASS • Netlify
+**🛠️ Tech Stack:** Vue 3 • Vite • Axios • Bootstrap 5 • SASS • Netlify
 
 [![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://spontaneous-swan-358ea4.netlify.app/)
-
+[![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/vite-boolflix)
 ---
 
 ### 🏠 BoolBnB - Progetto Collaborativo
 
-**Team Project (3 sviluppatori)**
+**Team Project (4 sviluppatori)**
 
 #### 🔧 Backend (Laravel)
 *Sistema completo di annunci appartamenti con:*
 - 🔐 Sistema di autenticazione utenti
 - 📝 CRUD completo appartamenti con soft delete
-- 💳 Sistema pagamenti API per sponsorizzazioni
+- 💳 Sistema pagamenti PayPal Braintree API per sponsorizzazioni
 - 📊 Dashboard statistiche visualizzazioni
 - 📧 Sistema messaggistica per proprietari
 
@@ -148,14 +172,7 @@ Vite         ███████████████        75%  ⚡ Speed
 
 [![🌐 Frontend Repo](https://img.shields.io/badge/🌐%20Frontend%20Repo-000000?style=flat&logo=github&logoColor=white)](https://github.com/WilliamHaxhija/fo-boolbnb)
 
-**Tecnologie utilizzate:**
-
-![Team-3 Developers](https://img.shields.io/badge/Team-3%20Developers-blue?style=flat)
-![Architecture-Microservices](https://img.shields.io/badge/Architecture-Microservices-green?style=flat)
-![Laravel-Backend](https://img.shields.io/badge/Laravel-Backend-red?style=flat&logo=laravel)
-![Vue.js-Frontend](https://img.shields.io/badge/Vue.js-Frontend-4FC08D?style=flat&logo=vue.js)
-![TomTom-API](https://img.shields.io/badge/TomTom-API-orange?style=flat)
-![Git-Collaboration](https://img.shields.io/badge/Git-Collaboration-purple?style=flat&logo=git)
+**🛠️ Tech Stack:** 4 Developers • Laravel • Vue • Vite • Bootstrap 5 • Tailwind • TomTom API • PayPal Braintree API • Composition API • Git
 
 ---
 
