@@ -40,8 +40,8 @@ Ciao! 👋 Sono Filippo, un **Fullstack Developer** che ha trasformato la passio
 ### 🔧 Come lavoro
 ```javascript
 const filippo = {
-  code: ['PHP', 'JavaScript', 'Vue.js'],
-  tools: ['Laravel', 'Vite', 'MySQL'],
+  code: ['JavaScript', 'PHP', 'Python'],
+  tools: ['AI', 'Laravel', 'Vue', 'MySQL'],
   mindset: 'Growth & Fun',
   hobbies: ['🎷 Sassofono', '🎮 Gaming', '🎵 Musica'],
   currentlyLearning: 'Sempre qualcosa di nuovo!',
