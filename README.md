@@ -2,7 +2,15 @@
 
 # 👋 Ciao! Sono Filippo Falcone
 
-<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8B+Ciao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%F0%Python           ██████████████         70%  🐍 Versatile coding
+Docker           ████████████           65%  🐳 Container wizard
+React            ████████████           65%  ⚛️ Component builder
+Angular          ███████████            60%  🅰️ Framework pro
+Bootstrap        ███████████            60%  🎨 Responsive design
+Tailwind CSS     ██████████             55%  🌊 Utility-first CSS
+Sass             ██████████             55%  💅 Preprocessor pro
+GitHub Copilot   ██████████             55%  🤖 AI coding assistant
+Ollama           █████████               50%  🧠 Local AI runnerCiao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark" width="900" />
 
@@ -104,11 +112,23 @@ const filippo = {
 ### 🎭 Livello di competenza
 
 ```
-Laravel      ████████████████████   95%  🔥 La mia comfort zone
-Vue.js       ███████████████████    90%  💚 Reactive & Dynamic  
-PHP          ██████████████████     85%  🐘 Object-oriented love
-MySQL        ████████████████       80%  🗄️  Query ninja
-Vite         ███████████████        75%  ⚡ Speed & efficiency
+JavaScript       ██████████████████     85%  🔥La mia comfort zone
+Vue.js           ████████████████       80%  💚 Reactive & Dynamic  
+Laravel          ███████████████        75%  📃 Scripting master
+PHP              ███████████████        75%  🐘 Object-oriented love
+MySQL            ██████████████         70%  🗄️ Query ninja
+Node.js          ████████████           65%  🚀 Runtime expert
+Vite             ████████████           65%  ⚡ Speed & efficiency
+Python           ███████████            60%  🐍 Versatile coding
+Docker           ██████████             55%  🐳 Container wizard
+React            █████████              50%  ⚛️ Component builder
+Angular          █████████              50%  🅰️ Framework pro
+TypeScript       █████████              50%  🔷 Typed scripting
+Bootstrap        █████████              50%  🎨 Responsive design
+Tailwind CSS     ████████               45%  🌊 Utility-first CSS
+Sass             ████████               45%  💅 Preprocessor pro
+GitHub Copilot   ████████               45%  🤖 AI coding assistant
+Ollama           ███████                40%  🧠 Local AI runner
 ```
 
 ---
