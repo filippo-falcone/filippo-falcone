@@ -2,17 +2,9 @@
 
 # 👋 Ciao! Sono Filippo Falcone
 
-<img src="https://readme-typing-svg.demolab.com/?lines=%F0%Python           ██████████████         70%  🐍 Versatile coding
-Docker           ████████████           65%  🐳 Container wizard
-React            ████████████           65%  ⚛️ Component builder
-Angular          ███████████            60%  🅰️ Framework pro
-Bootstrap        ███████████            60%  🎨 Responsive design
-Tailwind CSS     ██████████             55%  🌊 Utility-first CSS
-Sass             ██████████             55%  💅 Preprocessor pro
-GitHub Copilot   ██████████             55%  🤖 AI coding assistant
-Ollama           █████████               50%  🧠 Local AI runnerCiao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8BCiao%21+Sono+Filippo+Falcone;%F0%9F%9A%80+Fullstack+Developer+appassionato;%E2%9D%A4%EF%B8%8F+Amo+scrivere+codice+e+divertirmi;%F0%9F%92%A1+Laravel%2C+Vue%2C+Vite+Enthusiast;%F0%9F%8E%AF+Sempre+in+evoluzione...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark" width="900" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark&bordercolor=white" width="900" />
 
 </div>
 
@@ -29,7 +21,7 @@ Ciao! 👋 Sono Filippo, un **Fullstack Developer** che ha trasformato la passio
 - 🚀 **Cosa mi muove:** Creare soluzioni eleganti a problemi complessi
 - 💡 **Il mio superpotere:** Trasformare caffè ☕ in codice funzionante
 - 🎨 **Approccio:** Un mix perfetto tra logica rigorosa e creatività sfrenata
-- 🎓 **Background:** Junior Full Stack Web Developer @ Boolean Careers (luglio 2024)
+- 🎓 **Background:** Junior Full Stack Web Developer [📃](https://credsverse.com/credentials/3fe2d031-de6e-4701-86b7-a2af66e819ef) (luglio 2024)
 - 📄 **CV Completo:** [Guarda il mio Curriculum Vitae](https://github.com/filippo-falcone/CV) 📋
 - 🌱 **Always learning:** Ogni bug è un'opportunità di crescita!
 
@@ -111,25 +103,65 @@ const filippo = {
 
 ### 🎭 Livello di competenza
 
-```
-JavaScript       ██████████████████     85%  🔥La mia comfort zone
-Vue.js           ████████████████       80%  💚 Reactive & Dynamic  
-Laravel          ███████████████        75%  📃 Scripting master
-PHP              ███████████████        75%  🐘 Object-oriented love
-MySQL            ██████████████         70%  🗄️ Query ninja
-Node.js          ████████████           65%  🚀 Runtime expert
-Vite             ████████████           65%  ⚡ Speed & efficiency
-Python           ███████████            60%  🐍 Versatile coding
-Docker           ██████████             55%  🐳 Container wizard
-React            █████████              50%  ⚛️ Component builder
-Angular          █████████              50%  🅰️ Framework pro
-TypeScript       █████████              50%  🔷 Typed scripting
-Bootstrap        █████████              50%  🎨 Responsive design
-Tailwind CSS     ████████               45%  🌊 Utility-first CSS
-Sass             ████████               45%  💅 Preprocessor pro
-GitHub Copilot   ████████               45%  🤖 AI coding assistant
-Ollama           ███████                40%  🧠 Local AI runner
-```
+<svg width="800" height="430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', monospace; font-size: 14px; fill: #ffffff; }
+      .bar { fill: #58a6ff; }
+    </style>
+  </defs>
+  <text x="10" y="20" class="mono">JavaScript</text>
+  <rect x="150" y="5" width="340" height="15" class="bar"/>
+  <text x="550" y="20" class="mono">85% 🔥 La mia comfort zone</text>
+  <text x="10" y="45" class="mono">Vue.js</text>
+  <rect x="150" y="30" width="320" height="15" class="bar"/>
+  <text x="550" y="45" class="mono">80% 💚 Reactive & Dynamic</text>
+  <text x="10" y="70" class="mono">Laravel</text>
+  <rect x="150" y="55" width="300" height="15" class="bar"/>
+  <text x="550" y="70" class="mono">75% 📜 Scripting master</text>
+  <text x="10" y="95" class="mono">PHP</text>
+  <rect x="150" y="80" width="300" height="15" class="bar"/>
+  <text x="550" y="95" class="mono">75% 🐘 Object-oriented love</text>
+  <text x="10" y="120" class="mono">MySQL</text>
+  <rect x="150" y="105" width="280" height="15" class="bar"/>
+  <text x="550" y="120" class="mono">70% 🗄️ Query ninja</text>
+  <text x="10" y="145" class="mono">Node.js</text>
+  <rect x="150" y="130" width="260" height="15" class="bar"/>
+  <text x="550" y="145" class="mono">65% 🚀 Runtime expert</text>
+  <text x="10" y="170" class="mono">Vite</text>
+  <rect x="150" y="155" width="260" height="15" class="bar"/>
+  <text x="550" y="170" class="mono">65% ⚡ Speed & efficiency</text>
+  <text x="10" y="195" class="mono">Python</text>
+  <rect x="150" y="180" width="240" height="15" class="bar"/>
+  <text x="550" y="195" class="mono">60% 🐍 Versatile coding</text>
+  <text x="10" y="220" class="mono">Docker</text>
+  <rect x="150" y="205" width="220" height="15" class="bar"/>
+  <text x="550" y="220" class="mono">55% 🐳 Container wizard</text>
+  <text x="10" y="245" class="mono">React</text>
+  <rect x="150" y="230" width="200" height="15" class="bar"/>
+  <text x="550" y="245" class="mono">50% ⚛️ Component builder</text>
+  <text x="10" y="270" class="mono">Angular</text>
+  <rect x="150" y="255" width="200" height="15" class="bar"/>
+  <text x="550" y="270" class="mono">50% 🅰️ Framework pro</text>
+  <text x="10" y="295" class="mono">TypeScript</text>
+  <rect x="150" y="280" width="200" height="15" class="bar"/>
+  <text x="550" y="295" class="mono">50% 🔷 Typed scripting</text>
+  <text x="10" y="320" class="mono">Bootstrap</text>
+  <rect x="150" y="305" width="200" height="15" class="bar"/>
+  <text x="550" y="320" class="mono">50% 🎨 Responsive design</text>
+  <text x="10" y="345" class="mono">Tailwind CSS</text>
+  <rect x="150" y="330" width="180" height="15" class="bar"/>
+  <text x="550" y="345" class="mono">45% 🌊 Utility-first CSS</text>
+  <text x="10" y="370" class="mono">Sass</text>
+  <rect x="150" y="355" width="180" height="15" class="bar"/>
+  <text x="550" y="370" class="mono">45% 💅 Preprocessor pro</text>
+  <text x="10" y="395" class="mono">GitHub Copilot</text>
+  <rect x="150" y="380" width="180" height="15" class="bar"/>
+  <text x="550" y="395" class="mono">45% 🤖 AI coding assistant</text>
+  <text x="10" y="420" class="mono">Ollama</text>
+  <rect x="150" y="405" width="160" height="15" class="bar"/>
+  <text x="550" y="420" class="mono">40% 🧠 Local AI runner</text>
+</svg>
 
 ---
 
@@ -138,7 +170,7 @@ Ollama           ███████                40%  🧠 Local AI runner
 > *"Ogni progetto racconta una storia, ogni commit è un passo avanti"*
 
 ### 🤖 AI Docker Template Generator (v2.0)
-<img alt="IA Docker Template Generator" src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true">
+<img alt="IA Docker Template Generator" src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=github_dark">
 
 *Tool CLI avanzato con architettura a microservizi che sfrutta Ollama + Gemma3 AI per generare progetti web completi. Supporta template frontend/backend/fullstack con validazione automatica, Docker files production-ready e dry-run di installazione. Interfaccia interattiva con agenti AI specializzati per generazione e validazione! 🚀🤖*
 
@@ -158,7 +190,7 @@ Ollama           ███████                40%  🧠 Local AI runner
 ---
 
 ### 🎬 Boolflix
-[![Boolflix](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=radical&hide_border=true)](https://github.com/filippo-falcone/vite-boolflix)
+[![Boolflix](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=github_dark)](https://github.com/filippo-falcone/vite-boolflix)
 
 *Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨*
 
@@ -202,17 +234,20 @@ Ollama           ███████                40%  🧠 Local AI runner
 
 <!-- GitHub Stats con tema radical -->
 <a href="https://github.com/filippo-falcone">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=filippo-falcone&theme=radical&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117" />
 </a>
 
 <br>
 
 <!-- Statistiche aggiuntive con tema radical -->
 <a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=github_dark&count_private=true" />
 </a>
+
+<br>
+
 <a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=radical&hide_border=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=github_dark" />
 </a>
 
 </div>
