@@ -41,11 +41,11 @@ Ciao! 👋 Sono Filippo, un **Fullstack Developer** che ha trasformato la passio
 ```javascript
 const filippo = {
   code: ['JavaScript', 'PHP', 'Python'],
-  tools: ['AI', 'Laravel', 'Vue', 'MySQL'],
+  tools: ['AI', 'Vue', 'Laravel', 'MySQL'],
   mindset: 'Growth & Fun',
   hobbies: ['🎷 Sassofono', '🎮 Gaming', '🎵 Musica'],
   currentlyLearning: 'Sempre qualcosa di nuovo!',
-  funFact: 'Faccio debug a ritmo di jazz e videogiochi! 🎷🎮'
+  funFact: 'Faccio debug a ritmo di musica e videogiochi! 🎷🎮'
 };
 ```
 
@@ -140,7 +140,7 @@ Ollama           ███████                40%  🧠 Local AI runner
 ### 🤖 AI Docker Template Generator (v2.0)
 <img alt="IA Docker Template Generator" src="https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=ia-docker-template-generator&theme=radical&hide_border=true">
 
-*Tool CLI avanzato con architettura a microservizi che sfrutta Ollama + Gemma3 AI per generare progetti web completi. Supporta template frontend/backend/fullstack con validazione automatica, Docker files production-ready e dry-run di installazione. Interfaccia interattiva bilingue con agenti AI specializzati per generazione e validazione! 🚀🤖*
+*Tool CLI avanzato con architettura a microservizi che sfrutta Ollama + Gemma3 AI per generare progetti web completi. Supporta template frontend/backend/fullstack con validazione automatica, Docker files production-ready e dry-run di installazione. Interfaccia interattiva con agenti AI specializzati per generazione e validazione! 🚀🤖*
 
 **🛠️ Tech Stack v2.0**: Node.js • Ollama + Gemma3 AI • Python FastAPI • Docker • Microservizi • Auto-Validation • Health Checks
 
@@ -237,18 +237,26 @@ Ollama           ███████                40%  🧠 Local AI runner
 
 ### 🔭 Attualmente sto lavorando su
 - 🌟 Sto espandendo il mio portfolio con nuovi progetti
-- 📚 Sto approfondendo la Vue 3 Composition API  
-- 🎯 Studio pattern avanzati di Laravel
+- 🧠 Sto apprendendo il comportamento delle AI e la loro applicazione 
+- 📚 Sto approfondendo la mie conoscenze 
+- 🎯 Studio pattern avanzati dei linguaggi
+- 🧑‍💻 Studio nuovi linguaggi e nuovi framework
 
 ### 🌱 Obiettivi di apprendimento
-- 🔄 Pipeline CI/CD
+- 🔄 Python
+- 🔄 Angular
+- 🔄 React
+- 🔄 Typescript
+- 🧠 Implementazione delle AI
 - 🐳 Containerizzazione Docker  
 - 📱 Progressive Web App
 
 ### 💬 Chiedimi di
-- Best practice Laravel
-- Pattern reattivi Vue.js
+- Intelligenza Artificiale
+- Best practice nel coding
+- Pattern reattivi
 - Sviluppo full-stack
+- Sviluppo font-end
 - Come rendere il coding divertente! 😄
 
 ---
