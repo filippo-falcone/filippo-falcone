@@ -283,7 +283,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
 </a>
 <a href="https://github.com/filippo-falcone/CV">
-<img src="https://img.shields.io/badge/📄%20Repository%20CV-FF6B35?style=flat&logo=adobe-acrobat-reader&logoColor=white" />
+<img src="https://img.shields.io/badge/Repository%20CV-FF6B35?style=flat&logo=adobe-acrobat-reader&logoColor=white" />
 </a>
 </p>
 
