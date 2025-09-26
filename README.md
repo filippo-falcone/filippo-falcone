@@ -36,7 +36,7 @@ Ciao! 👋 Sono Filippo, un **Fullstack Developer** che ha trasformato la passio
 - 💡 **Il mio superpotere:** Trasformare caffè ☕ in codice funzionante
 - 🎨 **Approccio:** Un mix perfetto tra logica rigorosa e creatività sfrenata
 - 🎓 **Background:** Junior Full Stack Web Developer [📃](https://credsverse.com/credentials/3fe2d031-de6e-4701-86b7-a2af66e819ef) (luglio 2024)
-- 📄 **CV Completo:** [Guarda il mio Curriculum Vitae](https://github.com/filippo-falcone/CV) 📋
+- 📄 **CV Completo:** [Guarda il mio Curriculum Vitae](https://github.com/filippo-falcone/CV/blob/main/src%2Fcv.pdf) 📋
 - 🌱 **Always learning:** Ogni bug è un'opportunità di crescita!
 
 ---
