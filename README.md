@@ -14,8 +14,8 @@
 
 - [🙋‍♂️ Chi sono](#🙋‍♂️-chi-sono) — breve introduzione
 - [⚡ Il mio flusso di lavoro](#⚡-il-mio-flusso-di-lavoro) — come affronto i progetti
-- [🛠️ Stack Tecnologico & Superpoteri](#🛠️-stack-tecnologico--superpoteri) — le mie skill preferite
 - [🎨 Progetti in evidenza](#🎨-progetti-in-evidenza) — i lavori che mi rappresentano
+- [🛠️ Stack Tecnologico & Superpoteri](#🛠️-stack-tecnologico--superpoteri) — le mie skill preferite
 - [📊 Statistiche & Obiettivi Sbloccati](#📊-statistiche--obiettivi-sbloccati) — numeri e badge
 - [🎯 Cosa sto facendo ora](#🎯-cosa-sto-facendo-ora) — learning & focus attuali
 - [🤝 Connettiamoci e costruiamo qualcosa di fantastico](#🤝-connettiamoci-e-costruiamo-qualcosa-di-fantastico) — contatti
