@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Filippo Falcone's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1072, Total PRs: 0, Total Issues: 16, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1075, Total PRs: 0, Total Issues: 16, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fe428e;
+            fill: #58A6FF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C3D1D9;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C3D1D9;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #f8d847;
+      fill: #1F6FEB;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #fe428e;
+      stroke: #58A6FF;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #fe428e;
+      stroke: #58A6FF;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 206.6459250148599;
+        stroke-dashoffset: 206.60453651333867;
       }
     }
   
@@ -111,7 +111,7 @@
           height="99%"
           stroke="#e4e2e2"
           width="466"
-          fill="#141321"
+          fill="#0D1117"
           stroke-opacity="0"
         />
 
