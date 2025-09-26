@@ -103,65 +103,7 @@ const filippo = {
 
 ### 🎭 Livello di competenza
 
-<svg width="800" height="430" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .mono { font-family: 'Courier New', monospace; font-size: 14px; fill: #ffffff; }
-      .bar { fill: #58a6ff; }
-    </style>
-  </defs>
-  <text x="10" y="20" class="mono">JavaScript</text>
-  <rect x="150" y="5" width="340" height="15" class="bar"/>
-  <text x="550" y="20" class="mono">85% 🔥 La mia comfort zone</text>
-  <text x="10" y="45" class="mono">Vue.js</text>
-  <rect x="150" y="30" width="320" height="15" class="bar"/>
-  <text x="550" y="45" class="mono">80% 💚 Reactive & Dynamic</text>
-  <text x="10" y="70" class="mono">Laravel</text>
-  <rect x="150" y="55" width="300" height="15" class="bar"/>
-  <text x="550" y="70" class="mono">75% 📜 Scripting master</text>
-  <text x="10" y="95" class="mono">PHP</text>
-  <rect x="150" y="80" width="300" height="15" class="bar"/>
-  <text x="550" y="95" class="mono">75% 🐘 Object-oriented love</text>
-  <text x="10" y="120" class="mono">MySQL</text>
-  <rect x="150" y="105" width="280" height="15" class="bar"/>
-  <text x="550" y="120" class="mono">70% 🗄️ Query ninja</text>
-  <text x="10" y="145" class="mono">Node.js</text>
-  <rect x="150" y="130" width="260" height="15" class="bar"/>
-  <text x="550" y="145" class="mono">65% 🚀 Runtime expert</text>
-  <text x="10" y="170" class="mono">Vite</text>
-  <rect x="150" y="155" width="260" height="15" class="bar"/>
-  <text x="550" y="170" class="mono">65% ⚡ Speed & efficiency</text>
-  <text x="10" y="195" class="mono">Python</text>
-  <rect x="150" y="180" width="240" height="15" class="bar"/>
-  <text x="550" y="195" class="mono">60% 🐍 Versatile coding</text>
-  <text x="10" y="220" class="mono">Docker</text>
-  <rect x="150" y="205" width="220" height="15" class="bar"/>
-  <text x="550" y="220" class="mono">55% 🐳 Container wizard</text>
-  <text x="10" y="245" class="mono">React</text>
-  <rect x="150" y="230" width="200" height="15" class="bar"/>
-  <text x="550" y="245" class="mono">50% ⚛️ Component builder</text>
-  <text x="10" y="270" class="mono">Angular</text>
-  <rect x="150" y="255" width="200" height="15" class="bar"/>
-  <text x="550" y="270" class="mono">50% 🅰️ Framework pro</text>
-  <text x="10" y="295" class="mono">TypeScript</text>
-  <rect x="150" y="280" width="200" height="15" class="bar"/>
-  <text x="550" y="295" class="mono">50% 🔷 Typed scripting</text>
-  <text x="10" y="320" class="mono">Bootstrap</text>
-  <rect x="150" y="305" width="200" height="15" class="bar"/>
-  <text x="550" y="320" class="mono">50% 🎨 Responsive design</text>
-  <text x="10" y="345" class="mono">Tailwind CSS</text>
-  <rect x="150" y="330" width="180" height="15" class="bar"/>
-  <text x="550" y="345" class="mono">45% 🌊 Utility-first CSS</text>
-  <text x="10" y="370" class="mono">Sass</text>
-  <rect x="150" y="355" width="180" height="15" class="bar"/>
-  <text x="550" y="370" class="mono">45% 💅 Preprocessor pro</text>
-  <text x="10" y="395" class="mono">GitHub Copilot</text>
-  <rect x="150" y="380" width="180" height="15" class="bar"/>
-  <text x="550" y="395" class="mono">45% 🤖 AI coding assistant</text>
-  <text x="10" y="420" class="mono">Ollama</text>
-  <rect x="150" y="405" width="160" height="15" class="bar"/>
-  <text x="550" y="420" class="mono">40% 🧠 Local AI runner</text>
-</svg>
+<img src="./assets/langs-graph.svg">
 
 ---
 
@@ -234,20 +176,20 @@ const filippo = {
 
 <!-- GitHub Stats con tema radical -->
 <a href="https://github.com/filippo-falcone">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117" />
+  <img height="180em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/streak.svg" />
 </a>
 
 <br>
 
 <!-- Statistiche aggiuntive con tema radical -->
 <a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=github_dark&count_private=true" />
+  <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/github-stats.svg" />
 </a>
 
 <br>
 
 <a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=github_dark" />
+  <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/top-langs.svg" />
 </a>
 
 </div>
@@ -303,7 +245,7 @@ const filippo = {
 **🚀 Pronto per una nuova avventura di codice?**
 
 <p>
-<a href="mailto:filippofalcone18@gmail.com">
+<a href="mailto:filippofalcone@outlook.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
 </a>
 <a href="https://www.linkedin.com/in/filippo-falcone-993213211">
