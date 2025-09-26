@@ -241,7 +241,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 - 🌟 Sto espandendo il mio portfolio con nuovi progetti
 - 🧠 Sto apprendendo il comportamento delle AI e la loro applicazione
-- 📚 Sto approfondendo la mie conoscenze
+- 📚 Sto approfondendo le mie conoscenze
 - 🎯 Studio pattern avanzati dei linguaggi
 - 🧑‍💻 Studio nuovi linguaggi e nuovi framework
 
@@ -261,7 +261,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 - Best practice nel coding
 - Pattern reattivi
 - Sviluppo full-stack
-- Sviluppo font-end
+- Sviluppo front-end
 - Come rendere il coding divertente! 😄
 
 ---
