@@ -246,7 +246,7 @@ const filippo = {
 
 <p>
 <a href="mailto:filippofalcone@outlook.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Mail-ffffff?style=flat&logo=maildotru&logoColor=red" />
 </a>
 <a href="https://www.linkedin.com/in/filippo-falcone-993213211">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
