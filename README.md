@@ -103,65 +103,7 @@ const filippo = {
 
 ### 🎭 Livello di competenza
 
-<svg width="800" height="430" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .mono { font-family: 'Courier New', monospace; font-size: 14px; fill: #ffffff; }
-      .bar { fill: #58a6ff; }
-    </style>
-  </defs>
-  <text x="10" y="20" class="mono">JavaScript</text>
-  <rect x="150" y="5" width="340" height="15" class="bar"/>
-  <text x="550" y="20" class="mono">85% La mia comfort zone</text>
-  <text x="10" y="45" class="mono">Vue.js</text>
-  <rect x="150" y="30" width="320" height="15" class="bar"/>
-  <text x="550" y="45" class="mono">80% Reactive & Dynamic</text>
-  <text x="10" y="70" class="mono">Laravel</text>
-  <rect x="150" y="55" width="300" height="15" class="bar"/>
-  <text x="550" y="70" class="mono">75% Scripting master</text>
-  <text x="10" y="95" class="mono">PHP</text>
-  <rect x="150" y="80" width="300" height="15" class="bar"/>
-  <text x="550" y="95" class="mono">75% Object-oriented love</text>
-  <text x="10" y="120" class="mono">MySQL</text>
-  <rect x="150" y="105" width="280" height="15" class="bar"/>
-  <text x="550" y="120" class="mono">70% Query ninja</text>
-  <text x="10" y="145" class="mono">Node.js</text>
-  <rect x="150" y="130" width="260" height="15" class="bar"/>
-  <text x="550" y="145" class="mono">65% Runtime expert</text>
-  <text x="10" y="170" class="mono">Vite</text>
-  <rect x="150" y="155" width="260" height="15" class="bar"/>
-  <text x="550" y="170" class="mono">65% Speed & efficiency</text>
-  <text x="10" y="195" class="mono">Python</text>
-  <rect x="150" y="180" width="240" height="15" class="bar"/>
-  <text x="550" y="195" class="mono">60% Versatile coding</text>
-  <text x="10" y="220" class="mono">Docker</text>
-  <rect x="150" y="205" width="220" height="15" class="bar"/>
-  <text x="550" y="220" class="mono">55% Container wizard</text>
-  <text x="10" y="245" class="mono">React</text>
-  <rect x="150" y="230" width="200" height="15" class="bar"/>
-  <text x="550" y="245" class="mono">50% Component builder</text>
-  <text x="10" y="270" class="mono">Angular</text>
-  <rect x="150" y="255" width="200" height="15" class="bar"/>
-  <text x="550" y="270" class="mono">50% Framework pro</text>
-  <text x="10" y="295" class="mono">TypeScript</text>
-  <rect x="150" y="280" width="200" height="15" class="bar"/>
-  <text x="550" y="295" class="mono">50% Typed scripting</text>
-  <text x="10" y="320" class="mono">Bootstrap</text>
-  <rect x="150" y="305" width="200" height="15" class="bar"/>
-  <text x="550" y="320" class="mono">50% Responsive design</text>
-  <text x="10" y="345" class="mono">Tailwind CSS</text>
-  <rect x="150" y="330" width="180" height="15" class="bar"/>
-  <text x="550" y="345" class="mono">45% Utility-first CSS</text>
-  <text x="10" y="370" class="mono">Sass</text>
-  <rect x="150" y="355" width="180" height="15" class="bar"/>
-  <text x="550" y="370" class="mono">45% Preprocessor pro</text>
-  <text x="10" y="395" class="mono">GitHub Copilot</text>
-  <rect x="150" y="380" width="180" height="15" class="bar"/>
-  <text x="550" y="395" class="mono">45% AI coding assistant</text>
-  <text x="10" y="420" class="mono">Ollama</text>
-  <rect x="150" y="405" width="160" height="15" class="bar"/>
-  <text x="550" y="420" class="mono">40% Local AI runner</text>
-</svg>
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22horizontalBar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22JavaScript%22%2C%22Vue.js%22%2C%22Laravel%22%2C%22PHP%22%2C%22MySQL%22%2C%22Node.js%22%2C%22Vite%22%2C%22Python%22%2C%22Docker%22%2C%22React%22%2C%22Angular%22%2C%22TypeScript%22%2C%22Bootstrap%22%2C%22Tailwind%20CSS%22%2C%22Sass%22%2C%22GitHub%20Copilot%22%2C%22Ollama%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Competenza%22%2C%22data%22%3A%5B85%2C80%2C75%2C75%2C70%2C65%2C65%2C60%2C55%2C50%2C50%2C50%2C50%2C45%2C45%2C45%2C40%5D%2C%22backgroundColor%22%3A%22%2358a6ff%22%2C%22borderColor%22%3A%22%2358a6ff%22%2C%22borderWidth%22%3A1%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22datalabels%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22xAxes%22%3A%5B%7B%22ticks%22%3A%7B%22beginAtZero%22%3Atrue%2C%22max%22%3A100%2C%22fontColor%22%3A%22%23ffffff%22%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22%23333%22%7D%7D%5D%2C%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22fontFamily%22%3A%22monospace%22%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22%23333%22%7D%7D%5D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%7D&width=800&height=430" alt="Competenze" />
 
 ---
 
