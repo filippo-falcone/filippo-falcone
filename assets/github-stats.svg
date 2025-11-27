@@ -1,5 +1,15 @@
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-sfo1::lcprq-1764127747845-d69fccace9c0
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
+  <defs>
+    <style>
+      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }
+      .date { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    </style>
+  </defs>
+  <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="25" y="35" class="header">📊 GitHub Statistics</text>
+  <text x="25" y="70" class="stat">⚡ Fullstack Developer attivo</text>
+  <text x="25" y="95" class="date">🚀 Repository pubblici e contributi regolari</text>
+  <text x="25" y="120" class="date">💻 Codice disponibile su GitHub</text>
+  <text x="25" y="145" class="date">🔄 Statistiche aggiornate automaticamente</text>
+</svg>
