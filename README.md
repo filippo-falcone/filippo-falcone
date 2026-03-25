@@ -227,23 +227,25 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 <div align="center">
 
-<!-- GitHub Stats con tema radical -->
-<a href="https://github.com/filippo-falcone">
-  <img height="180em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/streak.svg" />
-</a>
-
-<br>
-
-<!-- Statistiche aggiuntive con tema radical -->
-<a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/github-stats.svg" />
-</a>
-
-<br>
-
-<a href="https://github.com/filippo-falcone">
-  <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/top-langs.svg" />
-</a>
+<table>
+  <tr>
+  <td align="center" width="33%">
+      <a href="https://github.com/filippo-falcone">
+        <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/github-stats.svg" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/filippo-falcone">
+        <img height="180em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/streak.svg" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/filippo-falcone">
+        <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/top-langs.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
