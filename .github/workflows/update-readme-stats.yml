@@ -21,20 +21,20 @@ jobs:
       - name: Genera badge da GitHub API (ZERO CACHE)
         run: |
           mkdir -p assets
-          
+
           GITHUB_TOKEN="${{ github.token }}"
           TIMESTAMP=$(date +%s)
-          
+
           echo "📡 Fetching dati da GitHub API direttamente..."
-          
+
           # 1️⃣ GITHUB STATS - Usa l'API REST di GitHub
           echo "🔄 Generando GitHub Stats..."
           STATS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             https://api.github.com/users/filippo-falcone)
-          
+
           PUBLIC_REPOS=$(echo "$STATS" | grep -o '"public_repos":[0-9]*' | cut -d: -f2)
           FOLLOWERS=$(echo "$STATS" | grep -o '"followers":[0-9]*' | cut -d: -f2)
-          
+
           cat > assets/github-stats.svg << 'STATSEOF'
           <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
             <defs>
@@ -62,17 +62,17 @@ jobs:
           </text>
           </svg>
           STATSEND
-          
+
           echo "✅ GitHub Stats generato"
-          
+
           # 2️⃣ TOP LANGUAGES - Analizza i repository pubblici
           # Include ALL repos per mostrare Python correttamente
           echo "🔄 Generando Top Languages..."
-          
+
           LANGUAGES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated" | \
             grep -o '"language":"[^"]*"' | cut -d'"' -f4 | sort | uniq -c | sort -rn | head -5)
-          
+
           cat > assets/top-langs.svg << 'LANGSEOF'
           <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
             <defs>
@@ -84,38 +84,38 @@ jobs:
             <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
             <text x="25" y="35" class="header">💻 Top Languages</text>
             <text x="40" y="75" class="lang-item">LANGSEOF
-          
+
           echo "$LANGUAGES" | awk '{print $2 " (" $1 " repos)"}' | head -1 >> assets/top-langs.svg
-          
+
           cat >> assets/top-langs.svg << 'LANGSEOF2'
           </text>
           LANGSEOF2
-          
+
           # Aggiungi ultime 4 lingue
           local_line=105
           echo "$LANGUAGES" | tail -n +2 | while IFS= read -r line; do
             echo "            <text x=\"40\" y=\"$local_line\" class=\"lang-item\">$line</text>" >> assets/top-langs.svg
             local_line=$((local_line + 25))
           done
-          
+
           cat >> assets/top-langs.svg << 'LANGSEND'
           </svg>
           LANGSEND
-          
+
           echo "✅ Top Languages generato"
-          
+
           # 3️⃣ STREAK STATS - Calcola da contributions endpoint
           # GitHub non ha un API pubblico per lo streak, ma usiamo i dati di ultima attività
           echo "🔄 Generando Streak Stats..."
-          
+
           LAST_YEAR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated" | \
             grep -o '"updated_at":"[^"]*"' | head -1 | cut -d'"' -f4)
-          
+
           LAST_COMMIT_DATE=$(date -d "$LAST_YEAR" +%s 2>/dev/null || echo "0")
           TODAY=$(date +%s)
           DAYS_SINCE=$((($TODAY - $LAST_COMMIT_DATE) / 86400))
-          
+
           cat > assets/streak.svg << 'STREAKEOF'
           <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
             <defs>
@@ -139,7 +139,7 @@ jobs:
           </text>
           </svg>
           STREAKEND
-          
+
           echo "✅ Streak Stats generato"
           echo "✨ Tutti i badge generati con GitHub API diretta (ZERO CACHE)"
 
