@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
   <defs>
     <style>
-      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
-      .stat-label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
-      .stat-value { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79ff97; }
+      .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+      .stat-label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+      .stat-value { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79c0ff; }
     </style>
   </defs>
   <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
@@ -12,5 +12,5 @@
   <text x="60" y="115" class="stat-label">Repository Pubblici</text>
   <text x="280" y="90" class="stat-value">10</text>
   <text x="280" y="115" class="stat-label">Followers</text>
-  <text x="25" y="160" class="stat-label">⏰ Aggiornato: 25/03/2026 22:55 UTC</text>
+  <text x="25" y="160" class="stat-label">⏰ Aggiornato: 25/03/2026 23:10 UTC</text>
 </svg>
