@@ -229,6 +229,12 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 <div style="flex: 0 1 auto; min-width: 300px;">
 <a href="https://github.com/filippo-falcone">
+<img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/github-stats.svg" />
+</a>
+</div>
+
+<div style="flex: 0 1 auto; min-width: 300px;">
+<a href="https://github.com/filippo-falcone">
 <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/streak.svg" />
 </a>
 </div>
@@ -236,12 +242,6 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 <div style="flex: 0 1 auto; min-width: 300px;">
 <a href="https://github.com/filippo-falcone">
 <img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/top-langs.svg" />
-</a>
-</div>
-
-<div style="flex: 0 1 auto; min-width: 300px;">
-<a href="https://github.com/filippo-falcone">
-<img height="160em" src="https://raw.githubusercontent.com/filippo-falcone/filippo-falcone/main/assets/github-stats.svg" />
 </a>
 </div>
 
