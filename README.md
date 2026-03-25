@@ -225,7 +225,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 ## 📊 Statistiche & Obiettivi Sbloccati
 
-<div align="center" style="display: flex; justify-content: center; gap: 10px 0.5px; flex-wrap: wrap; margin: 20px 0;">
+<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0;">
 
 <div style="flex: 0 1 auto; min-width: 300px;">
 <a href="https://github.com/filippo-falcone">
