@@ -23,19 +23,18 @@ jobs:
           mkdir -p assets
 
           GITHUB_TOKEN="${{ github.token }}"
-          TIMESTAMP=$(date +%s)
+          set +x  # Disabilita echo dei comandi nei log
 
           echo "📡 Fetching dati da GitHub API direttamente..."
 
-          # 1️⃣ GITHUB STATS - Usa l'API REST di GitHub
+          # 1️⃣ GITHUB STATS
           echo "🔄 Generando GitHub Stats..."
-          STATS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-            https://api.github.com/users/filippo-falcone)
-
+          STATS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/users/filippo-falcone)
           PUBLIC_REPOS=$(echo "$STATS" | grep -o '"public_repos":[0-9]*' | cut -d: -f2)
           FOLLOWERS=$(echo "$STATS" | grep -o '"followers":[0-9]*' | cut -d: -f2)
+          UPDATE_TIME=$(date '+%d/%m/%Y %H:%M UTC')
 
-          cat > assets/github-stats.svg << 'STATSEOF'
+          cat > assets/github-stats.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
             <defs>
               <style>
@@ -46,34 +45,32 @@ jobs:
             </defs>
             <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
             <text x="25" y="35" class="header">📊 GitHub Statistics</text>
-            <text x="60" y="90" class="stat-value">STATSEOF
-          echo "$PUBLIC_REPOS" >> assets/github-stats.svg
-          cat >> assets/github-stats.svg << 'STATSEOF2'
-          </text>
+            <text x="60" y="90" class="stat-value">$PUBLIC_REPOS</text>
             <text x="60" y="115" class="stat-label">Repository Pubblici</text>
-            <text x="280" y="90" class="stat-value">STATSEOF2
-          echo "$FOLLOWERS" >> assets/github-stats.svg
-          cat >> assets/github-stats.svg << 'STATSEOF3'
-          </text>
+            <text x="280" y="90" class="stat-value">$FOLLOWERS</text>
             <text x="280" y="115" class="stat-label">Followers</text>
-            <text x="25" y="160" class="stat-label">⏰ Aggiornato: STATSEOF3
-          date '+%d/%m/%Y %H:%M UTC' >> assets/github-stats.svg
-          cat >> assets/github-stats.svg << 'STATSEND'
-          </text>
+            <text x="25" y="160" class="stat-label">⏰ Aggiornato: $UPDATE_TIME</text>
           </svg>
-          STATSEND
+          EOF
 
           echo "✅ GitHub Stats generato"
 
-          # 2️⃣ TOP LANGUAGES - Analizza i repository pubblici
-          # Include ALL repos per mostrare Python correttamente
+          # 2️⃣ TOP LANGUAGES
           echo "🔄 Generando Top Languages..."
 
-          LANGUAGES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-            "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated" | \
-            grep -o '"language":"[^"]*"' | cut -d'"' -f4 | sort | uniq -c | sort -rn | head -5)
+          LANGUAGES_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated")
 
-          cat > assets/top-langs.svg << 'LANGSEOF'
+          # Estrai lingue e conta
+          LANGS=$(echo "$LANGUAGES_JSON" | grep -o '"language":"[^"]*"' | cut -d'"' -f4 | grep -v '^null$' | sort | uniq -c | sort -rn | head -5)
+
+          LANG_LINES=$(echo "$LANGS" | awk '{print $2 " (" $1 " repos)"}')
+          LANG1=$(echo "$LANG_LINES" | head -1)
+          LANG2=$(echo "$LANG_LINES" | sed -n '2p')
+          LANG3=$(echo "$LANG_LINES" | sed -n '3p')
+          LANG4=$(echo "$LANG_LINES" | sed -n '4p')
+          LANG5=$(echo "$LANG_LINES" | sed -n '5p')
+
+          cat > assets/top-langs.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195">
             <defs>
               <style>
@@ -83,40 +80,26 @@ jobs:
             </defs>
             <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
             <text x="25" y="35" class="header">💻 Top Languages</text>
-            <text x="40" y="75" class="lang-item">LANGSEOF
-
-          echo "$LANGUAGES" | awk '{print $2 " (" $1 " repos)"}' | head -1 >> assets/top-langs.svg
-
-          cat >> assets/top-langs.svg << 'LANGSEOF2'
-          </text>
-          LANGSEOF2
-
-          # Aggiungi ultime 4 lingue
-          local_line=105
-          echo "$LANGUAGES" | tail -n +2 | while IFS= read -r line; do
-            echo "            <text x=\"40\" y=\"$local_line\" class=\"lang-item\">$line</text>" >> assets/top-langs.svg
-            local_line=$((local_line + 25))
-          done
-
-          cat >> assets/top-langs.svg << 'LANGSEND'
+            <text x="40" y="75" class="lang-item">$LANG1</text>
+            <text x="40" y="100" class="lang-item">$LANG2</text>
+            <text x="40" y="125" class="lang-item">$LANG3</text>
+            <text x="40" y="150" class="lang-item">$LANG4</text>
+            <text x="40" y="175" class="lang-item">$LANG5</text>
           </svg>
-          LANGSEND
+          EOF
 
           echo "✅ Top Languages generato"
 
-          # 3️⃣ STREAK STATS - Calcola da contributions endpoint
-          # GitHub non ha un API pubblico per lo streak, ma usiamo i dati di ultima attività
+          # 3️⃣ STREAK STATS
           echo "🔄 Generando Streak Stats..."
 
-          LAST_YEAR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-            "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated" | \
-            grep -o '"updated_at":"[^"]*"' | head -1 | cut -d'"' -f4)
-
-          LAST_COMMIT_DATE=$(date -d "$LAST_YEAR" +%s 2>/dev/null || echo "0")
+          LAST_UPDATE=$(echo "$LANGUAGES_JSON" | grep -o '"updated_at":"[^"]*"' | head -1 | cut -d'"' -f4)
+          LAST_TIMESTAMP=$(date -d "$LAST_UPDATE" +%s 2>/dev/null || echo "0")
           TODAY=$(date +%s)
-          DAYS_SINCE=$((($TODAY - $LAST_COMMIT_DATE) / 86400))
+          DAYS_SINCE=$(( ($TODAY - $LAST_TIMESTAMP) / 86400 ))
+          CURRENT_DATE=$(date '+%d %b %Y, %H:%M UTC')
 
-          cat > assets/streak.svg << 'STREAKEOF'
+          cat > assets/streak.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
             <defs>
               <style>
@@ -128,17 +111,11 @@ jobs:
             </defs>
             <rect width="495" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
             <text x="25" y="35" class="header">🔥 GitHub Activity (LIVE DATA)</text>
-            <text x="60" y="100" class="stat-value">STREAKEOF
-          echo "$DAYS_SINCE" >> assets/streak.svg
-          cat >> assets/streak.svg << 'STREAKEOF2'
-          </text>
+            <text x="60" y="100" class="stat-value">$DAYS_SINCE</text>
             <text x="60" y="125" class="stat-label">Giorni dall'ultimo commit</text>
-            <text x="25" y="160" class="date-text">🕐 Dati acquisiti direttamente da GitHub API STREAKEOF2
-          date '+%d %b %Y, %H:%M UTC' >> assets/streak.svg
-          cat >> assets/streak.svg << 'STREAKEND'
-          </text>
+            <text x="25" y="160" class="date-text">🕐 Dati acquisiti: $CURRENT_DATE</text>
           </svg>
-          STREAKEND
+          EOF
 
           echo "✅ Streak Stats generato"
           echo "✨ Tutti i badge generati con GitHub API diretta (ZERO CACHE)"
