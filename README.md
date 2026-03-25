@@ -1,7 +1,4 @@
 <div align="center">
-
-# 👋 Ciao! Sono Filippo Falcone
-
 <img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%91%8BCiao%21+Sono+Filippo+Falcone;%F0%9F%8E%93+AI+%26+ML+Engineer+in+formazione;%F0%9F%98%8A+Amo+risolvere+problemi+con+l%27IA;%F0%9F%90%8D+Python%2C+Algoritmi%2C+Machine+Learning;%F0%9F%8E%AF+Sempre+imparando+qualcosa+di+nuovo...&font=Fira%20Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=100" alt="Typing SVG" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=filippo-falcone&theme=github_dark&bordercolor=white" width="900" />
