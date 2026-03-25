@@ -36,8 +36,8 @@ jobs:
           echo "DEBUG STATS: $STATS"
           echo "PUBLIC_REPOS: $PUBLIC_REPOS"
           echo "FOLLOWERS: $FOLLOWERS"
-          PUBLIC_REPOS=$(echo "$STATS" | grep -o '"public_repos":[0-9]*' | cut -d: -f2)
-          FOLLOWERS=$(echo "$STATS" | grep -o '"followers":[0-9]*' | cut -d: -f2)
+          PUBLIC_REPOS=$(echo "$STATS" | jq '.public_repos')
+          FOLLOWERS=$(echo "$STATS" | jq '.followers')
           UPDATE_TIME=$(date '+%d/%m/%Y %H:%M UTC')
 
           cat > assets/github-stats.svg << EOF
@@ -69,7 +69,7 @@ jobs:
           echo "LANGS: $LANGS"
           echo "LANG1: $LANG1"
           # Estrai lingue e conta
-          LANGS=$(echo "$LANGUAGES_JSON" | grep -o '"language":"[^"]*"' | cut -d'"' -f4 | grep -v '^null$' | sort | uniq -c | sort -rn | head -5)
+          LANGS=$(echo "$LANGUAGES_JSON" | jq -r '.[].language' | grep -v '^null$' | sort | uniq -c | sort -rn | head -5)
 
           LANG_LINES=$(echo "$LANGS" | awk '{print $2 " (" $1 " repos)"}')
           LANG1=$(echo "$LANG_LINES" | head -1)
