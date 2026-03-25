@@ -64,7 +64,7 @@ jobs:
           # 2️⃣ TOP LANGUAGES
           echo "🔄 Generando Top Languages..."
 
-          LANGUAGES_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/user/repos?per_page=100&sort=updated&affiliation=owner,collaborator,organization_member")
+          LANGUAGES_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated")
           echo "DEBUG LANGUAGES_JSON: $LANGUAGES_JSON"
           echo "LANGS: $LANGS"
           echo "LANG1: $LANG1"
