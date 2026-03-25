@@ -178,7 +178,6 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 **Algoritmi & Strutture Dati**
 
 <img src="https://img.shields.io/badge/Algoritmi-4CAF50?style=flat&logo=algorithm&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
 
 **Backend & Framework (Background)**
 
@@ -262,7 +261,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 - 🐛 **Cacciatore di Bug** - Debug master level
 - 🚀 **Lancia Progetti** - Creatore di repository
 - 🌐 **Deploy in Produzione** - Boolflix su Netlify!
-- 🤝 **Giocatore di Squadra** - BoolBnB sviluppato in team di 3 developer
+- 🤝 **Giocatore di Squadra** - BoolBnB sviluppato in team di 4 developer
 - 🏗️ **Architetto** - Progettazione architettura microservizi
 - 💡 **Collaboratore Open Source** - Collaborazioni su repository esterne
 - 🧠 **Problem Solver** - Ninja della logica
@@ -275,7 +274,7 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 ### 🔭 Attualmente sto lavorando su
 
-- � **Università:** Frequentando il corso di Intelligenza Artificiale
+- 🎓 **Università:** Frequentando il corso di Intelligenza Artificiale
 - 🐍 **Python Intensivo:** Imparando Python per AI e algoritmi
 - 🧠 **Machine Learning:** Studiando ML, algoritmi e strutture dati
 - 📊 **Progetti Universitari:** Collaborando con colleghi su progetti di programmazione
@@ -283,13 +282,15 @@ _SPA per visitatori - Interfaccia moderna e reattiva con:_
 
 ### 🌱 Obiettivi di apprendimento (Università)
 
-- 🎯 Python avanzato
-- 🧠 Machine Learning & Deep Learning
-- 📈 Analisi dati con Pandas e NumPy
-- 🤖 Algoritmi avanzati e ottimizzazione
-- 🔬 Scikit-learn e TensorFlow
-- 📚 Fondamenti matematici di AI (Calcolo, Algebra Lineare, Probabilità)
-- 🌐 NLP e Computer Vision (futuri)
+Formazione come **Esperto in IA** con approccio interdisciplinare in matematica, informatica e scienze cognitive.
+
+**Aree di Studio:**
+
+- 🧮 Fondamenti Matematici (Algebra Lineare, Probabilità, Analisi)
+- 💻 Informatica Fondamentale (Algoritmi, Strutture Dati, Basi Dati)
+- 🤖 Machine Learning e Algoritmi di Ottimizzazione
+- 👁️ Computer Vision / 💬 Natural Language Processing
+- ⚖️ Aspetti Etici e Giuridici dell'IA
 
 ### 💬 Parla con me di
 
