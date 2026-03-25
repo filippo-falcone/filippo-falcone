@@ -33,6 +33,9 @@ jobs:
           # 1️⃣ GITHUB STATS
           echo "🔄 Generando GitHub Stats..."
           STATS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/users/filippo-falcone)
+          echo "DEBUG STATS: $STATS"
+          echo "PUBLIC_REPOS: $PUBLIC_REPOS"
+          echo "FOLLOWERS: $FOLLOWERS"
           PUBLIC_REPOS=$(echo "$STATS" | grep -o '"public_repos":[0-9]*' | cut -d: -f2)
           FOLLOWERS=$(echo "$STATS" | grep -o '"followers":[0-9]*' | cut -d: -f2)
           UPDATE_TIME=$(date '+%d/%m/%Y %H:%M UTC')
@@ -62,7 +65,9 @@ jobs:
           echo "🔄 Generando Top Languages..."
 
           LANGUAGES_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/users/filippo-falcone/repos?per_page=100&sort=updated")
-
+          echo "DEBUG LANGUAGES_JSON: $LANGUAGES_JSON"
+          echo "LANGS: $LANGS"
+          echo "LANG1: $LANG1"
           # Estrai lingue e conta
           LANGS=$(echo "$LANGUAGES_JSON" | grep -o '"language":"[^"]*"' | cut -d'"' -f4 | grep -v '^null$' | sort | uniq -c | sort -rn | head -5)
 
