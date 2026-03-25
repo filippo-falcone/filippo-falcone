@@ -79,8 +79,6 @@ Progetti sviluppati in collaborazione con i miei colleghi per i corsi universita
 
 #### ⚙️ Algoritmi di Ordinamento
 
-[![Algoritmi di Ordinamento](https://github-readme-stats.vercel.app/api/pin/?username=Algoritmi-per-IA-25-26&repo=algoritmi-ordinamento-airfryer&theme=github_dark)](https://github.com/Algoritmi-per-IA-25-26/algoritmi-ordinamento-airfryer)
-
 _Progetti per il corso **Algoritmi per l'Intelligenza Artificiale**_
 
 Studio completo degli algoritmi di ordinamento più importanti: implementazione, analisi delle performance, confronti sperimentali e visualizzazioni grafiche. 🔄
@@ -94,8 +92,6 @@ Studio completo degli algoritmi di ordinamento più importanti: implementazione,
 ---
 
 #### 🏛️ Monumenti a Palermo
-
-[![Monumenti a Palermo](https://github-readme-stats.vercel.app/api/pin/?username=CdLIA-PCL-2025-2026&repo=Team6---Monumenti-a-Palermo&theme=github_dark)](https://github.com/CdLIA-PCL-2025-2026/Team6---Monumenti-a-Palermo)
 
 _Progetto collettivo sviluppato in team di 3 sviluppatori per l'esame di **Programmazione con Laboratorio**_
 
