@@ -2,7 +2,7 @@ name: Aggiorna badge statistiche README
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Ogni giorno alle 3:00 UTC
+    - cron: "0 3 * * *" # Ogni giorno alle 3:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
       - name: Scarica badge GitHub Stats
         run: |
           mkdir -p assets
-          
+
           # Funzione di retry per download con validazione
           download_with_retry() {
             local url="$1"
@@ -55,7 +55,7 @@ jobs:
             echo "❌ Download fallito dopo $max_attempts tentativi: $output"
             return 1
           }
-          
+
           # Download GitHub Stats (prioritario) con fallback
           if ! download_with_retry "https://github-readme-stats.vercel.app/api?username=filippo-falcone&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" "assets/github-stats.svg"; then
             echo "🔄 Creazione badge GitHub Stats di fallback..."
@@ -78,9 +78,10 @@ jobs:
           SVGEOF
             echo "✅ Badge GitHub Stats di fallback creato"
           fi
-          
+
           # Download Top Languages (prioritario) con fallback
-          if ! download_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=github_dark&token=${{ secrets.GH_STATS_TOKEN }}" "assets/top-langs.svg"; then
+          # include_all_commits=true assicura che Python sia conteggiato da tutti i repository
+          if ! download_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=filippo-falcone&layout=compact&theme=github_dark&include_all_commits=true&hide_progress=false&token=${{ secrets.GH_STATS_TOKEN }}&cache_seconds=0" "assets/top-langs.svg"; then
             echo "🔄 Creazione badge Top Languages di fallback..."
             cat > assets/top-langs.svg << 'LANGEOF'
           <svg xmlns="http://www.w3.org/2000/svg" width="350" height="195">
@@ -101,11 +102,13 @@ jobs:
           LANGEOF
             echo "✅ Badge Top Languages di fallback creato"
           fi
-          
+
           # Download Streak Stats con fallback multipli
-          if ! download_with_retry "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117" "assets/streak.svg"; then
+          # Aggiunto timestamp randomico per bypass cache e forzare dati freschi
+          NOCACHE_PARAM="&nocache=$(date +%s%N | cut -b1-13)"
+          if ! download_with_retry "https://github-readme-streak-stats.demolab.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117${NOCACHE_PARAM}" "assets/streak.svg"; then
             echo "🔄 Tentativo con host alternativo..."
-            if ! download_with_retry "https://streak-stats.demolab.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117" "assets/streak.svg"; then
+            if ! download_with_retry "https://streak-stats.demolab.com?user=filippo-falcone&theme=github-dark-dimmed&border=FFFFFF&background=0D1117${NOCACHE_PARAM}" "assets/streak.svg"; then
               echo "🔄 Creazione badge statico di fallback..."
               # Crea un badge statico se tutti i servizi falliscono
               cat > assets/streak.svg << 'STREAKEOF'
@@ -127,7 +130,7 @@ jobs:
               echo "✅ Badge di fallback creato"
             fi
           fi
-          
+
           # Verifica che almeno i file essenziali esistano
           for file in "assets/github-stats.svg" "assets/top-langs.svg" "assets/streak.svg"; do
             if [ ! -s "$file" ]; then
@@ -141,7 +144,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          
+
           # Verifica quali file sono stati aggiornati
           updated_files=""
           for file in "assets/github-stats.svg" "assets/top-langs.svg" "assets/streak.svg"; do
@@ -149,9 +152,9 @@ jobs:
               updated_files="$updated_files $(basename $file)"
             fi
           done
-          
+
           git add assets/
-          
+
           if git diff --staged --quiet; then
             echo "📝 Nessuna modifica alle statistiche"
           else
