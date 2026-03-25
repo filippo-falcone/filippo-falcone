@@ -70,7 +70,8 @@ jobs:
           echo "LANG1: $LANG1"
           # Estrai lingue e conta
           LANGS=$(echo "$LANGUAGES_JSON" | jq -r '.[].language' | grep -v '^null$' | sort | uniq -c | sort -rn | head -5)
-
+          echo "DEBUG LANGS FINAL: $LANGS"
+          echo "DEBUG LANGS COUNT: $(echo "$LANGS" | wc -l)"
           LANG_LINES=$(echo "$LANGS" | awk '{print $2 " (" $1 " repos)"}')
           LANG1=$(echo "$LANG_LINES" | head -1)
           LANG2=$(echo "$LANG_LINES" | sed -n '2p')
