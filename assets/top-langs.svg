@@ -7,9 +7,9 @@
   </defs>
   <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="25" y="35" class="header">💻 Top Languages</text>
-  <text x="40" y="75" class="lang-item"> ( repos)</text>
-  <text x="40" y="100" class="lang-item"></text>
-  <text x="40" y="125" class="lang-item"></text>
-  <text x="40" y="150" class="lang-item"></text>
-  <text x="40" y="175" class="lang-item"></text>
+  <text x="40" y="75" class="lang-item">HTML (22 repos)</text>
+  <text x="40" y="100" class="lang-item">JavaScript (16 repos)</text>
+  <text x="40" y="125" class="lang-item">PHP (14 repos)</text>
+  <text x="40" y="150" class="lang-item">Vue (7 repos)</text>
+  <text x="40" y="175" class="lang-item">TeX (1 repos)</text>
 </svg>
