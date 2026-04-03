@@ -8,9 +8,9 @@
   </defs>
   <rect width="500" height="195" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="25" y="35" class="header">📊 GitHub Statistics</text>
-  <text x="60" y="90" class="stat-value">67</text>
+  <text x="60" y="90" class="stat-value">68</text>
   <text x="60" y="115" class="stat-label">Repository Pubblici</text>
   <text x="280" y="90" class="stat-value">10</text>
   <text x="280" y="115" class="stat-label">Followers</text>
-  <text x="25" y="160" class="stat-label">⏰ Aggiornato: 02/04/2026 03:58 UTC</text>
+  <text x="25" y="160" class="stat-label">⏰ Aggiornato: 03/04/2026 03:58 UTC</text>
 </svg>
