@@ -1,0 +1,36 @@
+name: Update README Images
+
+on:
+  schedule:
+    # Esegui ogni giorno alle 2:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download Tex Converter card
+        run: |
+          curl -o assets/tex-converter-card.svg \
+            'https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=tex-converter&theme=github_dark'
+
+      - name: Download Boolflix card
+        run: |
+          curl -o assets/boolflix-card.svg \
+            'https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=github_dark'
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/*.svg
+          git commit -m "chore: update readme card images" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
