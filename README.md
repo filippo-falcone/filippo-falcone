@@ -73,15 +73,29 @@ filippo = {
 
 > _"Ogni progetto racconta una storia, ogni commit è un passo avanti"_
 
+### 📖 Progetti personali
+
+Progetti sviluppati autonomamente per esplorare nuove tecnologie, risolvere problemi interessanti o semplicemente per divertimento. Questi progetti rappresentano la mia passione e il mio impegno nel mondo del coding:
+
+#### 🐍 Tex Converter
+
+[![Tex Converter](https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=tex-converter&theme=github_dark)](https://github.com/filippo-falcone/tex-converter)
+
+_Convertitore universale che trasforma documenti da multipli formati (TXT, Markdown, HTML, DOCX, PDF) in LaTeX compilabile a PDF. Architettura modulare con parser dedicati, AST comune e generatore LaTeX robusto. Perfetto per chi vuole automatizzare la creazione di documenti LaTeX professionali! 📄✨_
+
+**🛠️ Tech Stack:** Python • AST (Abstract Syntax Tree) • Parser Modulari • LaTeX Generator • Architettura a Tre Strati
+
+[![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/tex-converter)
+
 ### 🎓 Progetti Universitari
 
 Progetti sviluppati in collaborazione con i miei colleghi per i corsi universitari di Programmazione, Algoritmi e altre materie. Questi progetti riflettono il mio impegno verso l'IA e il problem-solving algoritmico:
 
 #### ⚙️ Algoritmi di Ordinamento
 
-_Progetti per il corso **Algoritmi per l'Intelligenza Artificiale**_
+Progetti per il corso **Algoritmi per l'Intelligenza Artificiale**
 
-Studio completo degli algoritmi di ordinamento più importanti: implementazione, analisi delle performance, confronti sperimentali e visualizzazioni grafiche. 🔄
+_Studio completo degli algoritmi di ordinamento più importanti: implementazione, analisi delle performance, confronti sperimentali e visualizzazioni grafiche._ 🔄
 
 **🛠️ Tech Stack:** Python • Algoritmi di Ordinamento • Benchmarking • Visualizzazione Dati
 
@@ -93,9 +107,9 @@ Studio completo degli algoritmi di ordinamento più importanti: implementazione,
 
 #### 🏛️ Monumenti a Palermo
 
-_Progetto collettivo sviluppato in team di 3 sviluppatori per l'esame di **Programmazione con Laboratorio**_
+Progetto collettivo sviluppato in team di 3 sviluppatori per l'esame di **Programmazione con Laboratorio**
 
-Gioco da tavolo digitale in Python che si svolge su una griglia 7×7 contenente monumenti storici di Palermo (Cattedrale, Palazzo dei Normanni, Quattro Canti, Fontana Pretoria, Teatro Massimo, Teatro Politeama e Jolly). 🎮🏛️
+_Gioco da tavolo digitale in Python che si svolge su una griglia 7×7 contenente monumenti storici di Palermo (Cattedrale, Palazzo dei Normanni, Quattro Canti, Fontana Pretoria, Teatro Massimo, Teatro Politeama e Jolly)._ 🎮🏛️
 
 **🛠️ Tech Stack:** Python • Strutture Dati • OOP • Gestione File
 
