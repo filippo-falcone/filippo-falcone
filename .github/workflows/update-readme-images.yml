@@ -1,4 +1,4 @@
-name: Update README Images
+name: Aggiorna immagini README
 
 on:
   schedule:
