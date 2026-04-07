@@ -6,6 +6,9 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-images:
     runs-on: ubuntu-latest
@@ -31,6 +34,4 @@ jobs:
           git commit -m "chore: update readme card images" || echo "No changes to commit"
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: git push
