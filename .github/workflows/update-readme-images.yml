@@ -1,10 +1,13 @@
 name: Aggiorna immagini README
 
-on:
-  schedule:
-    # Esegui ogni giorno alle 2:00 UTC
-    - cron: "0 2 * * *"
-  workflow_dispatch:
+# WORKFLOW IN PAUSA - Vercel deployment è paused
+# Attivare decommentando la sezione 'on:' quando Vercel torna online
+#
+# on:
+#   schedule:
+#     # Esegui ogni giorno alle 2:00 UTC
+#     - cron: "0 2 * * *"
+#   workflow_dispatch:
 
 permissions:
   contents: write

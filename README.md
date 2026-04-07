@@ -79,15 +79,7 @@ Progetti sviluppati autonomamente per esplorare nuove tecnologie, risolvere prob
 
 #### 🐍 Tex Converter
 
-[![Tex Converter](assets/tex-converter-card.svg)](https://github.com/filippo-falcone/tex-converter)
-
 _Convertitore universale intelligente che trasforma documenti da multipli formati (TXT, Markdown, HTML, DOCX, PDF) in LaTeX compilabile a PDF. Architettura modulare con parser dedicati, AST comune e generatore LaTeX robusto. Perfetto per chi vuole automatizzare la creazione di documenti LaTeX professionali! 📄✨_
-
-**🛠️ Tech Stack:** Python • AST (Abstract Syntax Tree) • Parser Modulari • LaTeX Generator • Architettura a Tre Strati
-
-[![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/tex-converter)
-
-_Convertitore universale che trasforma documenti da multipli formati (TXT, Markdown, HTML, DOCX, PDF) in LaTeX compilabile a PDF. Architettura modulare con parser dedicati, AST comune e generatore LaTeX robusto. Perfetto per chi vuole automatizzare la creazione di documenti LaTeX professionali! 📄✨_
 
 **🛠️ Tech Stack:** Python • AST (Abstract Syntax Tree) • Parser Modulari • LaTeX Generator • Architettura a Tre Strati
 
@@ -130,15 +122,6 @@ _Gioco da tavolo digitale in Python che si svolge su una griglia 7×7 contenente
 Progetti sviluppati come Fullstack Developer durante il corso Boolean e in progetti personali. Questi progetti rappresentano il mio bagaglio culturale nel Full Stack Web Development:
 
 #### 🎬 Boolflix
-
-[![Boolflix](assets/boolflix-card.svg)](https://github.com/filippo-falcone/vite-boolflix)
-
-_Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨_
-
-**🛠️ Tech Stack:** Vue 3 • Vite • Axios • Bootstrap 5 • SASS • Netlify
-
-[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://spontaneous-swan-358ea4.netlify.app/)
-[![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/filippo-falcone/vite-boolflix)
 
 _Netflix clone moderno e reattivo sviluppato con Vue 3, Vite e Bootstrap. App SPA con ricerca film/serie TV, sezioni trending, design responsive e interfaccia cinematografica immersiva! 🍿✨_
 
