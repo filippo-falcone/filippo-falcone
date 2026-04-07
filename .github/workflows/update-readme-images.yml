@@ -21,13 +21,17 @@ jobs:
 
       - name: Download Tex Converter card
         run: |
-          curl -o assets/tex-converter-card.svg \
+          curl -L -o assets/tex-converter-card.svg \
             'https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=tex-converter&theme=github_dark'
+          echo "=== Tex Converter Card Content ===" 
+          head -c 100 assets/tex-converter-card.svg
 
       - name: Download Boolflix card
         run: |
-          curl -o assets/boolflix-card.svg \
+          curl -L -o assets/boolflix-card.svg \
             'https://github-readme-stats.vercel.app/api/pin/?username=filippo-falcone&repo=vite-boolflix&theme=github_dark'
+          echo "=== Boolflix Card Content ===" 
+          head -c 100 assets/boolflix-card.svg
 
       - name: Commit changes
         run: |
