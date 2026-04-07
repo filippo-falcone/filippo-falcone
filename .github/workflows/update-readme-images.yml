@@ -41,4 +41,6 @@ jobs:
           git commit -m "chore: update readme card images" || echo "No changes to commit"
 
       - name: Push changes
-        run: git push
+        run: |
+          git pull --rebase origin main
+          git push
