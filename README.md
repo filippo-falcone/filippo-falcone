@@ -97,7 +97,7 @@ _Studio completo degli algoritmi di ordinamento più importanti: implementazione
 
 **🛠️ Tech Stack:** Python • Algoritmi di Ordinamento • Benchmarking • Visualizzazione Dati
 
-**👥 Team:** [Abd el Rahim Berrouche](https://github.com/Abd-el-rahim) • [Filippo Falcone](https://github.com/filippo-falcone) • [Gioele Spanò](https://github.com/Drann050) • [Giuseppe Pio La Castellana](https://github.com/giuseppepiolacastellana-oss)
+**👥 Team:** [Abd el Rahim Berrouche](https://github.com/Abd-el-rahim) • [Filippo Falcone](https://github.com/filippo-falcone) • [Gioele Spanò](https://github.com/Drann05) • [Giuseppe Pio La Castellana](https://github.com/giuseppepiolacastellana-oss)
 
 [![🔗 Vai al Repository](https://img.shields.io/badge/🔗%20Vai%20al%20Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/Algoritmi-per-IA-25-26/algoritmi-ordinamento-airfryer)
 
